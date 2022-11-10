@@ -1,5 +1,5 @@
 # Lending Club Case Study
-> Outline a brief description of your project.
+> The objective is to identify predictors of default so that at the time of loan application we can use those variables for approval / rejection of the loan.
 
 
 ## Table of Contents
@@ -7,8 +7,6 @@
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
   - This company is the largest online loan marketplace, facilitating personal loans, business loans, and financing of medical procedures. 
@@ -18,34 +16,23 @@
   - A complete dataset of loan data for all loans issued between 2007 and 2011 and also the metadata describing the data are provided
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- High DTI indicates higher risk so should be provided with higher Interest Rates
+- Even if lower DTI, if there is no sufficient information of annual income, home-owner ship etc. should be considered a Riskier Loan
+- At year-end customer tend to take riskier loans and defaults. It might be better to avoid the holiday season or only take customers with good credit history during this time
+- Balance should be struck between the loan term and the interest rate – Longer the term for moderate interest rate, the less chance the customer will default
+- Customers with high salary and high DTI will most probably default when taking on large projects / investments
+- High Income states with low DTI can get lower interest rates
+- Low-income states with high DTI should get higher interest rates for their loans as they are riskier
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Python 3.9
+- seaborn 0.11.2
+- pandas 1.4.4
+- numpy 1.21.5
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
+- As part of the Upgrad Course on ML&AI
+- 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@jtkSource] - feel free to contact me!
